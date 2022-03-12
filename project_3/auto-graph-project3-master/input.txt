@@ -1,0 +1,41 @@
+PSTAT_START
+
+*******************************************
+name= test1, pid= 4
+wait time= 2
+ticks= {1, 2, 8}
+times= {2, 2, 4}
+*******************************************
+start=178, duration=1, priority=0
+start=179, duration=2, priority=1
+start=181, duration=8, priority=2
+start=189, duration=8, priority=2
+start=197, duration=8, priority=2
+start=205, duration=8, priority=2
+start=213, duration=1, priority=0
+start=214, duration=2, priority=1
+
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test1, pid= 3
+wait time= 0
+ticks= {1, 1, 2}
+times= {1, 7, 4}
+*******************************************
+start=177, duration=1, priority=0
+start=178, duration=0, priority=1
+start=178, duration=0, priority=1
+start=178, duration=0, priority=1
+start=178, duration=1, priority=1
+start=179, duration=0, priority=1
+start=179, duration=0, priority=1
+start=179, duration=1, priority=1
+start=180, duration=8, priority=2
+start=191, duration=8, priority=2
+start=199, duration=8, priority=2
+start=223, duration=2, priority=2
+PSTAT_END

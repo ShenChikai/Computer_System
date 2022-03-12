@@ -1,0 +1,150 @@
+PSTAT_START
+
+*******************************************
+name= test2, pid= 6
+wait time= 48
+ticks= {1, 2, 8}
+times= {1, 1, 2}
+*******************************************
+start=249, duration=1, priority=0
+start=284, duration=2, priority=1
+start=295, duration=8, priority=2
+start=310, duration=8, priority=2
+*******************************************
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test2, pid= 3
+wait time= 2
+ticks= {1, 2, 8}
+times= {2, 8, 2}
+*******************************************
+start=237, duration=1, priority=0
+start=238, duration=0, priority=1
+start=238, duration=1, priority=1
+start=239, duration=0, priority=1
+start=239, duration=0, priority=1
+start=239, duration=0, priority=1
+start=239, duration=0, priority=1
+start=239, duration=1, priority=1
+start=240, duration=8, priority=2
+start=256, duration=8, priority=2
+start=323, duration=1, priority=0
+start=325, duration=2, priority=1
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test2, pid= 15
+wait time= 45
+ticks= {1, 1, 8}
+times= {1, 4, 2}
+*******************************************
+start=304, duration=1, priority=0
+start=309, duration=1, priority=1
+start=325, duration=0, priority=1
+start=338, duration=0, priority=1
+start=346, duration=1, priority=1
+start=347, duration=8, priority=2
+start=358, duration=8, priority=2
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test2, pid= 8
+wait time= 0
+ticks= {1, 2, 8}
+times= {5, 1, 2}
+*******************************************
+start=250, duration=1, priority=0
+start=254, duration=2, priority=1
+start=264, duration=8, priority=2
+start=272, duration=8, priority=2
+start=306, duration=0, priority=0
+start=346, duration=0, priority=0
+start=355, duration=0, priority=0
+start=373, duration=1, priority=0
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test2, pid= 4
+wait time= 34
+ticks= {1, 2, 8}
+times= {2, 10, 2}
+*******************************************
+start=248, duration=1, priority=0
+start=252, duration=2, priority=1
+start=287, duration=8, priority=2
+start=306, duration=1, priority=0
+start=310, duration=0, priority=1
+start=325, duration=0, priority=1
+start=338, duration=0, priority=1
+start=347, duration=0, priority=1
+start=356, duration=0, priority=1
+start=374, duration=0, priority=1
+start=386, duration=0, priority=1
+start=404, duration=0, priority=1
+start=405, duration=2, priority=1
+start=409, duration=8, priority=2
+
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test2, pid= 9
+wait time= 10
+ticks= {1, 2, 8}
+times= {2, 8, 2}
+*******************************************
+start=281, duration=1, priority=0
+start=286, duration=1, priority=1
+start=309, duration=0, priority=1
+start=325, duration=0, priority=1
+start=346, duration=0, priority=1
+start=356, duration=0, priority=1
+start=374, duration=0, priority=1
+start=385, duration=1, priority=1
+start=388, duration=8, priority=2
+start=396, duration=8, priority=2
+start=404, duration=1, priority=0
+start=417, duration=2, priority=1
+
+
+PSTAT_END
+
+PSTAT_START
+
+*******************************************
+name= test2, pid= 5
+wait time= 10
+ticks= {1, 2, 0}
+times= {4, 6, 4}
+*******************************************
+start=280, duration=1, priority=0
+start=286, duration=0, priority=1
+start=325, duration=0, priority=1
+start=336, duration=2, priority=1
+start=338, duration=8, priority=2
+start=347, duration=0, priority=2
+start=355, duration=1, priority=0
+start=374, duration=0, priority=1
+start=386, duration=2, priority=1
+start=404, duration=0, priority=2
+start=409, duration=0, priority=2
+start=417, duration=0, priority=0
+start=424, duration=1, priority=0
+start=425, duration=2, priority=1
+
+PSTAT_END
